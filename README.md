@@ -1,4 +1,4 @@
-# AWS Lambda Data Processing Project
+# Tiny AWS Lambda Data Processing Project
 
 ## Overview
 
