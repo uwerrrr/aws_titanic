@@ -72,7 +72,7 @@ The data processing pipeline consists of the following steps:
          # Encode categorical variables (convert 'Sex' to numeric)
          titanic_data['Sex'] = titanic_data['Sex'].map({'male': 0, 'female': 1})
 
-         # Create new feature: 'FamilySize' =  'SibSp' + 'Parch')
+         # Create new feature: 'FamilySize' =  'SibSp' + 'Parch' + passenger)
          titanic_data['FamilySize'] = titanic_data['SibSp'] + titanic_data['Parch'] + 1
 
          # Display the first few rows of the transformed dataset
